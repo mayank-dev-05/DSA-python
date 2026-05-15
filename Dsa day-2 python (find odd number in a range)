@@ -4,4 +4,5 @@ b=int(input("enter the high range:-"))
 for i in range(a,b+1):
     if i%2 != 0:
         l.append(i)
-print("odd number are",l)
+n=len(l)
+print(f"there are {n} odd numbers and these are odd numbers",l)
