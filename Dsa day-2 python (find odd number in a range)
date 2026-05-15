@@ -1,7 +1,7 @@
 l=[]
-a=int(input("ente rthe high range:- "))
-b=int(input("enter the low range:-"))
+a=int(input("enter the low range:- "))
+b=int(input("enter the high range:-"))
 for i in range(a,b+1):
-    if i%3 == 0:
+    if i%2 != 0:
         l.append(i)
 print("odd number are",l)
