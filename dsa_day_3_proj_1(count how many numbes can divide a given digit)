@@ -1,0 +1,10 @@
+# count the digits that divide a numebr
+nums=[]
+a=int(input("enter the number:- "))
+count=0
+for i in range(1,a+1):
+     if a%i == 0:
+          nums.append(i)
+          count+=1
+        
+print(f"number are divisible with {count} numbers and the numbers are {nums} ")
