@@ -1,0 +1,16 @@
+real=[]
+
+b=int(input("how many numbers you want to write:-  "))
+for i in range(b):
+    a=int(input(f"ente your {i+1} number "))
+    real.append(a)
+
+inverse = real.copy()
+inverse.reverse()
+
+
+
+if real == inverse:
+    print("your number is plendrome")
+else:
+    print("your number is not pelendrome")
